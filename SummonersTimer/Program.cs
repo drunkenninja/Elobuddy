@@ -146,64 +146,16 @@ namespace SummonersTimer
             {
                 switch (args.SData.Name.ToLower())
                 {
-                    case "summonerheal":
-                        {
-                            SpellCD = 240;
-                            SpellS = "Heal";
-                            break;
-                        }
-                    case "summonerdot"://ignite
-                        {
-                            SpellCD = 180;
-                            SpellS = "Ignite";
-                            break;
-                        }
-                    case "summonerexhaust":
-                        {
-                            SpellCD = 210;
-                            SpellS = "Exhaust";
-                            break;
-                        }
                     case "summonerflash":
                         {
                             SpellCD = 300;
                             SpellS = "Flash";
                             break;
                         }
-                    case "summonerhaste"://Ghost
-                        {
-                            SpellCD = 210;
-                            SpellS = "Ghost";
-                            break;
-                        }
-                    case "summonermana"://Clarity
-                        {
-                            SpellCD = 180;
-                            SpellS = "Clarity";
-                            break;
-                        }
-                    case "summonerbarrier":
-                        {
-                            SpellCD = 210;
-                            SpellS = "Barrier";
-                            break;
-                        }
                     case "summonerteleport":
                         {
                             SpellCD = 300;
                             SpellS = "Teleport";
-                            break;
-                        }
-                    case "summonerboost"://Cleanse
-                        {
-                            SpellCD = 210;
-                            SpellS = "Cleanse";
-                            break;
-                        }
-                    case "summonerclairvoyance"://Clairvoyance
-                        {
-                            SpellCD = 55;
-                            SpellS = "Clairvoyance";
                             break;
                         }
                 }
